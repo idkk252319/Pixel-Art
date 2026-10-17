@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="center">
+        <div id="palette">
+            <div class="palette-cell" style="background-color: blue;" onclick="getColour('blue')"></div>
+            <div class="palette-cell" style="background-color: white;" onclick="getColour('white')"></div>
+            <div class="palette-cell" style="background-color: green;" onclick="getColour('green')"></div>
+            <div class="palette-cell" style="background-color: black;" onclick="getColour('black')"></div>
+            <div class="palette-cell" style="background-color: red;" onclick="getColour('red')"></div>
+            <div class="palette-cell" style="background-color: yellow;" onclick="getColour('yellow')"></div>
+            <div class="palette-cell" style="background-color: pink;" onclick="getColour('pink')"></div>
+            <div class="palette-cell" style="background-color: orange;" onclick="getColour('orange')"></div>
+        </div>
+        <div id="art">
+            <div class="row">
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+            </div>
+            <div class="row">
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+            </div>
+            <div class="row">
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+                <div class="pixel" onclick="setPixelColour(this)"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
